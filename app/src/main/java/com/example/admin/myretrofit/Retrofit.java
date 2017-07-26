@@ -16,7 +16,6 @@ public class Retrofit  {
 
     private Retrofit() {
     }
-
     //在将接口实例化的时候添加代理,动态实现接口
     public  <T> T create(Class<T> tClass){
 
